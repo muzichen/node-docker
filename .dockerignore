@@ -1,0 +1,6 @@
+node_modules
+Dockerfile
+package-lock.jsn
+.vscode
+.gitignore
+docker-compose* 
