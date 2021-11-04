@@ -11,6 +11,7 @@ services:
 
   node-app:
     build: . # build our own custom image
+    image: chenlee1024/node-app
     # ports:
     #   - "3000:3000"
     environment:
@@ -21,8 +22,7 @@ services:
   mongo:
     image: mongo
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=chenlee
-      - MONGO_INITDB_ROOT_PASSWORD=12345678
+      -  
     volumes:
       - mongo-db:/data/db
   
